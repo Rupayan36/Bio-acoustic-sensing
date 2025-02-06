@@ -31,7 +31,6 @@ nWorkers = None
 applylPostProcessing = True
 neighbouringAggregationFactor = 0.5
 
-checkpointRootDir = '../input/bc24-2nd-place-models/'
 dataDir = '../input/birdclef-2024/test_soundscapes/'
 
 submissionMode = len(list(Path('../input/birdclef-2024/test_soundscapes/').glob('*.ogg'))) > 1
